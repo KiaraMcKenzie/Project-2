@@ -27,10 +27,7 @@ ul.a {
   padding: 0;
   overflow: hidden;
   background-color: #f8f3e9;
-}
-
-li {
-  float: center;
+	display: inline;
 }
 
 
