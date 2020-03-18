@@ -32,7 +32,8 @@ ul.a {
 }
 
 li {
-  float: center;
+  display: block; 
+  margin: 0 auto;
 } 
 
 li a {
