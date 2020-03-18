@@ -1,22 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Gotu&display=swap');
+
 h1 {
+	color: black;
 	text-align: left;
-	font-family: 'Palatino Linotype', serif;
+	font-family: 'Gotu', sans-serif;
 }
 .left {
 	text-align: left;
 }
 p {
+	color: black;
 	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 20px;
+	font-size: 1.2em;
 }
 h2 {
-	background-color: #FA698F;
-	font-family: 'Palatino Linotype', serif;
+	color: #a6d9f0;
+	font-family: 'Gotu', sans-serif;
 }
+
+h3 {
+	color: #a6d9f0;
+	font-family: 'Gotu', sans-serif;
+}
+
+ul.a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fdfff5;
+}
+
 li {
-  font-family: 'Noto Serif SC', serif;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #f8e5ea;
+}
+	
 
 }
 body {
-  background-image: url("beach.gif");
+  background-image: url("beach.jpg");
 }
