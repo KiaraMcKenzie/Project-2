@@ -31,6 +31,9 @@ ul.a {
   background-color: #f8f3e9;
 }
 
+li {
+  float: center;
+} 
 
 li a {
   display: block;
@@ -38,8 +41,9 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-	display: inline; 
+
 }
+
 
 li a:hover {
   background-color: #f8e5ea;
