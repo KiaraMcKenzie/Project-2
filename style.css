@@ -29,6 +29,9 @@ ul.a {
   background-color: #f8f3e9;
 }
 
+li {
+  float: left;
+}
 
 
 li a {
