@@ -17,7 +17,7 @@ h2 {
 }
 
 h3 {
-	color: #196e94;
+	color: black;
 	font-family: 'Palatino Linotype', serif;
 }
 
@@ -30,7 +30,7 @@ ul.a {
 }
 
 li {
-  float: center;
+  float: left;
 }
 
 li a {
