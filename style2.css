@@ -55,4 +55,5 @@ ul.b {
 
 body {
   background-image: url("beach.jpg");
+  background-repeat: no-repeat;
 }
