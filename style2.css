@@ -56,6 +56,6 @@ ul.b {
 body {
   background-image: url("beach.jpg");
   background-repeat: no-repeat;
-  background-position: right top;
+  background-position: left top;
   background-attachment: fixed;
 }
