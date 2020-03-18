@@ -12,12 +12,12 @@ p {
 	font-size: 1.2em;
 }
 h2 {
-	color: #a6d9f0;
+	color: #196e94;
 	font-family: 'Palatino Linotype', serif;
 }
 
 h3 {
-	color: #a6d9f0;
+	color: #196e94;
 	font-family: 'Palatino Linotype', serif;
 }
 
@@ -26,7 +26,7 @@ ul.a {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #fdfff5;
+  background-color: #f8f3e9;
 }
 
 li {
@@ -35,7 +35,7 @@ li {
 
 li a {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -43,6 +43,9 @@ li a {
 
 li a:hover {
   background-color: #111;
+}
+ul.b {
+  list-style-type: circle;
 }
 	
 body {
