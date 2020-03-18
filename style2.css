@@ -10,16 +10,16 @@ h1 {
 }
 p {
 	color: black;
-	font-family: Tahoma, Geneva, sans-serif;
+	font-family: 'Gotu', sans-serif;
 	font-size: 1.2em;
 }
 h2 {
-	color: #a6d9f0;
-	font-family: 'Gotu', sans-serif;
+	color: black;
+	font-family: Verdana, Helvetica, sans-serif;
 }
 
 h3 {
-	color: #a6d9f0;
+	color: black;
 	font-family: 'Gotu', sans-serif;
 }
 
@@ -28,7 +28,7 @@ ul.a {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #fdfff5;
+  background-color: #f8f3e9;
 }
 
 li {
@@ -37,7 +37,7 @@ li {
 
 li a {
   display: block;
-  color: black;
+  color: #196e94;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -47,6 +47,9 @@ li a:hover {
   background-color: #f8e5ea;
 }
 	
+ul.b {
+  list-style-type: circle;
+}
 
 }
 body {
