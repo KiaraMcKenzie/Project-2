@@ -1,1 +1,22 @@
+h1 {
+	text-align: left;
+	font-family: 'Palatino Linotype', serif;
+}
+.left {
+	text-align: left;
+}
+p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+}
+h2 {
+	background-color: #FA698F;
+	font-family: 'Palatino Linotype', serif;
+}
+li {
+  font-family: 'Noto Serif SC', serif;
 
+}
+body {
+  background-image: url("beach.gif");
+}
