@@ -69,7 +69,7 @@ div#resume h3 {
 
 
 body.barcelona {
-  background:("images/beach.jpg");
+  background-image:url('beach.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -145,7 +145,39 @@ img.cats {
 	
 }
 
-img2.cats {
-	 float:left
-	
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
 }
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: center;
+  width: 24.99999%;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
