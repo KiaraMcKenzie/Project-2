@@ -6,8 +6,9 @@
 
 ul.a {
   list-style-type: none;
+  text-align:center;
   margin: 0;
-  padding: 0;
+  padding: 10;
   overflow: hidden;
   background-color: #f8f3e9;
 }
@@ -18,13 +19,13 @@ li a{
 }
 
 li a{
-	float: left
+	float: left;
+	
 }
 
 li a{
   display: block;
   color: #196e94;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -69,7 +70,7 @@ div#resume h3 {
 
 
 body.barcelona {
-  background-image:url('beach.jpg');
+  background-image:url(images/beach.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -101,7 +102,11 @@ div#barcelona h3 {
 
 
 
-
+body.cats{
+  background-image:url(images/wheatgrass.png);
+  background-repeat:no-repeat;
+  background-size:  cover;
+}
 
  div#cats h1 {
 	color: black;
@@ -126,21 +131,8 @@ div#cats h3 {
 	font-family: 'Gotu', sans-serif;
 }
 
-ul.a {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #f8f3e9;
-}
 
-
-
-body.cats{
-  background: url('images/wheatgrass.png') no-repeat cover;
-}
-
-img.cats {
+img#cats {
 	float:right
 	
 }
