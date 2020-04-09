@@ -25,7 +25,7 @@
 
 #nav ul li a{
   display: block;
-  margin: 5;
+  margin: 5px;
   float: left;
   display: block;
   color: #196e94;
@@ -53,7 +53,7 @@ body.resume {
 
 div#resume h1 {
 	font-size: 2.6em;
-	margin-top: 1 em;
+	margin-top: 1em;
 	padding-bottom: .5em;
 	color: black;
 	text-align: left;
@@ -69,8 +69,9 @@ div#resume h2 {
 }
 
 div#resume h3 {
-	font-size: 2 em;
-	margin: 0.67em 0;
+	
+	font-size: 1.6em;
+	margin-left: 1em;
 	color: black;
 	font-weight: bold;
 	font-family: 'Palatino Linotype', serif;
@@ -80,10 +81,10 @@ ul.a {
 	list-style-type:disc;
 	text-align:left;
 	line-height: 1.6em;
-	padding: 10;
+
   display: list-item;
   margin:2em;
-  padding: 10;
+
 }
 
 
@@ -101,7 +102,6 @@ body.barcelona {
 
 img.barcelona {
 	display:block;
-	float: center;
 	margin-left:auto;
 	margin-right: auto;
 }
@@ -186,7 +186,6 @@ div#cats h3 {
 img.solo {
 	display:block;
 	text-align: center;
-	float: center;
 	margin-left:auto;
 	margin-right: auto;
 	width:300px;
@@ -195,7 +194,6 @@ img.solo {
 img.oreo {
 	display:block;
 	text-align: center;
-	float: center;
 	margin-left:auto;
 	margin-right: auto;
 	width:300px;
@@ -220,7 +218,6 @@ ul.b {
   border: 3px solid #777; 
 }
 .container{
-	float:center;
 	width: 500px;
 	margin: auto;
 }
