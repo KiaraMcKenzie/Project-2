@@ -4,53 +4,56 @@
 
 
 
-ul.a {
+#nav ul{
   list-style-type: none;
-  text-align:center;
   margin: 0;
-  padding: 10;
   overflow: hidden;
+  font-family: 'Noto Serif SC', serif;
   background-color: #f8f3e9;
 }
 
-li a{
- display: block; 
- margin: 0 auto;
+#navbar-container {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+#nav ul li{
+	margin:0;
+	float:left;
 }
 
-li a{
-	float: left;
+
+#nav ul li a{
+  display: block;
+  margin: 5;
+  float: left;
   display: block;
   color: #196e94;
   padding: 14px 16px;
-  text-decoration: none	
+  text-decoration: none;
+  overflow: hidden;
+  vertical-align: middle;
+  
 }
 
 
-li a:hover {
+#nav ul li a:hover {
   background-color:#f8e5ea;
 }
 
-ul.b {
-  list-style-type: circle;
-  margin: 0;
-  padding: 10;
-  overflow: hidden;
-}
-li b {
-float:left;
-}	
+
+
 body.resume {
 	background-color: #fcfcf4;
 	color: black;
+	line-height:1.45;
 	font-family: 'Noto Serif SC', serif;
-	font-size: 1.2em;
-	text-align: left;
+	
 }
 
 div#resume h1 {
 	font-size: 2.6em;
-	margin-top: -.5em;
+	margin-top: 1 em;
 	padding-bottom: .5em;
 	color: black;
 	text-align: left;
@@ -59,49 +62,81 @@ div#resume h1 {
 
 
 div#resume h2 {
+	font-size: 2em;
+	margin: 0.67em 0;
 	color: #196e94;
 	font-family: 'Palatino Linotype', serif;
 }
 
 div#resume h3 {
+	font-size: 2 em;
+	margin: 0.67em 0;
 	color: black;
+	font-weight: bold;
 	font-family: 'Palatino Linotype', serif;
 }
 
+ul.a {
+	list-style-type:disc;
+	text-align:left;
+	line-height: 1.6em;
+	padding: 10;
+  display: list-item;
+  margin:2em;
+  padding: 10;
+}
 
 
 body.barcelona {
-  background-image:url(images/sunset.jpg);
+  background-image:url(../images/sunset.jpg);
   background-color:#9fe2bf;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0;
+	padding:0;
+	letter-spacing: normal;
+		line-height:1.45;
+
 }
 
-.img-barcelona {
+img.barcelona {
 	display:block;
 	float: center;
 	margin-left:auto;
 	margin-right: auto;
 }
 
- div#barcelona h1 {
-	color: black;
+div#barcelona h1 {
+	color:white;
+	font-size:  5em;
+	margin-top: 1em;
+	padding-bottom: .5em;
 	text-align: center;
+	text-indent: 50px;
 	font-family: 'Gotu', sans-serif;
 }
 
 div#barcelona p {
 	color: black;
+	text-indent: 50px;
+	line-height:1.6;
+	text-align: center;
 	font-family: 'Gotu', sans-serif;
 	font-size: 1.2em;
 }
 div#barcelona h2 {
-	color: black;
+	margin-top: 1em;
+	font-size: 2em;
+	color: white;
+	text-align: center;
 	font-family: Verdana, Helvetica, sans-serif;
 }
 
-div#barcelona h3 {
-	color: black;
+div#barcelona h3{
+	margin-top: 1em;
+	font-size: 1.5em;
+	color: silver;
+	text-align: center;
 	font-family: 'Gotu', sans-serif;
 }
 
@@ -111,23 +146,31 @@ div#barcelona h3 {
 
 
 body.cats{
-  background-image:url(images/pawprints.jpg);
+  background-image:url(../images/pawprints.jpg);
   background-color: #e1cba0;
   background-size:  cover;
 }
 
  div#cats h1 {
+	font-size: 5em;
+	margin-top: 1em; 
 	color: black;
-	text-align: left;
+	text-align: center;
 	font-family: 'Gotu', sans-serif;
 }
 
-p {
+div#cats p {
 	color: black;
+	text-indent:50px;
+	line-height: 1.6;
+	margin-bottom: 2em;
 	font-family: 'Gotu', sans-serif;
 	font-size: 1.2em;
 }
 div#cats h2 {
+	font-size: 2.2em;
+	margin-top: 1em;
+	padding-bottom: .5em;
 	color: black;
 	text-align: center;
 	font-family: Verdana, Helvetica, sans-serif;
@@ -135,11 +178,12 @@ div#cats h2 {
 
 div#cats h3 {
 	color: black;
+	font-size: 2em;
 	font-family: 'Gotu', sans-serif;
 }
 
 
-.img-solo {
+img.solo {
 	display:block;
 	text-align: center;
 	float: center;
@@ -148,17 +192,24 @@ div#cats h3 {
 	width:300px;
 	height:300px;
 }
-.img-oreo {
+img.oreo {
 	display:block;
 	text-align: center;
 	float: center;
 	margin-left:auto;
 	margin-right: auto;
-	width:200x;
-	height:200px;
+	width:300px;
+	height:300px;
 }
 
-
+ul.b {
+	list-style-type: none;
+	text-align: center;
+	padding-right: 25px;
+	line-height: 1.6;
+	color: blue;
+	font-size: 1.2em;
+}
 
 .gallery {
 	background-color: white;
@@ -166,20 +217,19 @@ div#cats h3 {
  margin: 25px;
  float: left;
  width: 250px;
-  border: 1px solid #777; 
+  border: 3px solid #777; 
 }
 .container{
 	float:center;
 	width: 500px;
 	margin: auto;
 }
-.gallery:hover {
-  border: 1px solid #777;
-}
+
 
 .gallery img {
   width: 100%;
   height: auto;
+ 
 }
 
 .desc {
@@ -187,12 +237,10 @@ div#cats h3 {
   text-align: center;
 }
 
-.responsive {
-  padding: 0 10px;
-  float: center;
-  width: 24.99999%;
-}
-
 .clear {
 	clear:both;
 }
+
+.video{
+	text-align:center;
+	}
